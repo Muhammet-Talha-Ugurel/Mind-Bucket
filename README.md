@@ -16,8 +16,16 @@ convenient to open a obsidan note and wite it down so i created this tool.
 ```bash
 mind-bucket --help
 ```
-- To add a note you can run the following command
+- To add a note to default vault you can run the following command
 ```bash
-mind-bucket add "This is an example note"
+mind-bucket add-todo "This is an example note"
+# or
+mind-bucket atd "This is an example note"
 ```
 
+- To add a note to a specific vault you can run the following command
+```bash
+mind-bucket add-todo -v "This is an example note"
+# or
+mind-bucket atd -v "This is an example note"
+```
